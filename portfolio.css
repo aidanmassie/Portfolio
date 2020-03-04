@@ -1,0 +1,94 @@
+.title{
+    font-family: futura-pt,sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    padding-top:10px;
+    margin: 0 auto 0px auto;
+  }
+
+.navBar{
+    font-family: adelle, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 255px;
+}
+.navBar:hover{
+    text-decoration: underline;
+}
+
+.car{
+    position:absolute;
+    margin-top: 128px;
+     margin-left: -770px;
+     display: inline-block;
+     margin-right: 10px;
+     margin-bottom:500px;
+ }
+
+ .film{
+    position:absolute;
+    margin-top: 128px;
+     margin-left: -345px;
+     display: inline-block;
+     margin-right: 10px;
+     margin-bottom:500px;
+ }
+
+ .podcast{
+    position:absolute;
+    margin-top: 128px;
+     margin-left: 80px;
+     display: inline-block;
+     margin-right: 10px;
+     margin-bottom:500px;
+ }
+
+ .baby{
+    position:absolute;
+    margin-top: 528px;
+     margin-left: -770px;
+     display: inline-block;
+     margin-right: 10px;
+     margin-bottom: 0px;
+ }
+
+ .pong{
+    position:absolute;
+    margin-top: 528px;
+     margin-left: -345px;
+     display: inline-block;
+     margin-right: 10px;
+     margin-bottom: 0px;
+ }
+
+ .bike{
+    position:absolute;
+    margin-top: 528px;
+     margin-left: 80px;
+     display: inline-block;
+     margin-right: 10px;
+     margin-bottom: 0px;
+ }
+
+ img {
+    filter: none;
+    -webkit-filter: grayscale(100%);
+    -moz-filter:    grayscale(100%);
+    -ms-filter:     grayscale(100%);
+    -o-filter:      grayscale(100%);
+    cursor: pointer;
+    transition: all 600ms ease;
+  }
+
+  img:hover {
+    filter: none;
+    -webkit-filter: grayscale(0%);
+    -moz-filter:    grayscale(0%);
+    -ms-filter:     grayscale(0%);
+    -o-filter:      grayscale(0%);
+  }
