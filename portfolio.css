@@ -102,3 +102,8 @@ a{
     -ms-filter:     grayscale(0%);
     -o-filter:      grayscale(0%);
   }
+
+  .aboutPic{
+    margin-left: 200px;
+    margin-top: 40px;
+  }
