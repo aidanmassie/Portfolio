@@ -34,7 +34,10 @@ a{
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 50px auto;
-    
+}
+
+.textContainer{
+    flex-direction: column;
 }
 
 .aboutPic{
@@ -42,7 +45,6 @@ a{
     margin-top: -10px;
     width: 400px;
     height: 600px;
-    display: inline-block;
   }
 
   .hello{
@@ -51,4 +53,13 @@ a{
     font-style: italic;
     font-size: 90px;
     margin-right: 100px;
+    margin-bottom: 0px;
+    text-align: left;
+  }
+
+  p{
+    font-family: adelle, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
   }
