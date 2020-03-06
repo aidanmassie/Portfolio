@@ -1,3 +1,11 @@
+.logo{
+    width:30px;
+    height: 30px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
 .title{
     font-family: futura-pt,sans-serif;
     font-weight: 700;
@@ -21,58 +29,60 @@
     text-decoration: underline;
 }
 
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 50px auto;
+    
+}
+
 .car{
-    position:absolute;
-    margin-top: 128px;
-     margin-left: -770px;
-     display: inline-block;
-     margin-right: 10px;
-     margin-bottom:500px;
+    display: inline-block;
+    margin-right: 10px;
+
  }
 
+ .imgWidth{
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+ }
+
+ .label{
+    font-family: futura-pt,sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 16px;
+    display: block;
+
+ }
  .film{
-    position:absolute;
-    margin-top: 128px;
-     margin-left: -345px;
      display: inline-block;
      margin-right: 10px;
-     margin-bottom:500px;
  }
 
  .podcast{
-    position:absolute;
-    margin-top: 128px;
-     margin-left: 80px;
      display: inline-block;
      margin-right: 10px;
-     margin-bottom:500px;
  }
 
  .baby{
-    position:absolute;
-    margin-top: 528px;
-     margin-left: -770px;
+     padding-top: 30px;
      display: inline-block;
      margin-right: 10px;
-     margin-bottom: 0px;
  }
 
  .pong{
-    position:absolute;
-    margin-top: 528px;
-     margin-left: -345px;
+    padding-top: 30px;
      display: inline-block;
      margin-right: 10px;
-     margin-bottom: 0px;
  }
 
  .bike{
-    position:absolute;
-    margin-top: 528px;
-     margin-left: 80px;
+    padding-top: 30px;
      display: inline-block;
      margin-right: 10px;
-     margin-bottom: 0px;
  }
 
  img {
