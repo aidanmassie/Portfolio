@@ -48,6 +48,10 @@ a{
     margin-right: 115px;
     }
 
+    .title{
+        font-size: 24px;
+    }
+
     iframe{
         width: 500;
         height: 250
