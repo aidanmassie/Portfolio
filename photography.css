@@ -2,20 +2,22 @@
     font-family: futura-pt,sans-serif;
     font-weight: 700;
     font-style: italic;
-    font-size: 20px;
+    font-size: 32px;
     text-align: center;
     padding-top:10px;
     margin: 0 auto 0px auto;
   }
 
-.navBar{
+  .navBar{
     font-family: adelle, serif;
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
     text-align: center;
-    display: inline-block;
-    margin-left: 255px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px 120px;
 }
 .navBar:hover{
     text-decoration: underline;
@@ -27,6 +29,7 @@ li a.active{
 
 a{
     color: #000000;
+    text-decoration: none;
 }
 
 .masonry{
@@ -49,19 +52,25 @@ a{
     -moz-column-count:    3;
     -webkit-column-count: 3;
     column-count:         3;
+    margin-left: 155px;
+    margin-right: 155px;
     }
   }
   @media (max-width: 800px) {
     .masonry {
-    -moz-column-count:    2;
-    -webkit-column-count: 2;
-    column-count:         2;
+    -moz-column-count:    3;
+    -webkit-column-count: 3;
+    column-count:         3;
+    margin-left: 115px;
+    margin-right: 115px;
     }
   }
   @media (max-width: 400px) {
     .masonry {
-    -moz-column-count:    1;
-    -webkit-column-count: 1;
-    column-count:         1;
+    -moz-column-count:    2;
+    -webkit-column-count: 2;
+    column-count:         2;
+    margin-left: 75px;
+    margin-right: 75px;
     }
   }

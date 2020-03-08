@@ -1,21 +1,23 @@
 .title{
-    font-family: futura-pt,sans-serif;
+    font-family: futura-pt, sans-serif;
     font-weight: 700;
     font-style: italic;
-    font-size: 20px;
+    font-size: 32px;
     text-align: center;
     padding-top:10px;
     margin: 0 auto 0px auto;
   }
 
-.navBar{
+  .navBar{
     font-family: adelle, serif;
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
     text-align: center;
-    display: inline-block;
-    margin-left: 255px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px 120px;
 }
 .navBar:hover{
     text-decoration: underline;
@@ -27,6 +29,7 @@ li a.active{
 
 a{
     color: #000000;
+    text-decoration: none;
 }
 
 .container{
@@ -57,7 +60,7 @@ a{
     text-align: left;
   }
 
-  p{
+  .text{
     font-family: adelle, serif;
     font-weight: 400;
     font-style: normal;
