@@ -66,3 +66,27 @@ a{
     font-style: normal;
     font-size: 20px;
   }
+
+  @media (max-width: 1200px) {
+    .navBar{
+        font-size: 16px;
+    }
+
+    .aboutPic{
+        width: 300px;
+        height: 450px;
+        margin-left: 45px;
+    }
+  }
+  @media (max-width: 500px) {
+    .navBar{
+        font-size: 16px;
+    }
+
+    .aboutPic{
+        width: 400px;
+        height: 600px;
+        justify-content: center;
+        margin-right: 30px;
+    }
+  }
