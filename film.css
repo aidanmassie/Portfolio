@@ -39,6 +39,11 @@ a{
     margin-top: 20px;
 }
 
+iframe{
+    width: 640;
+    height: 400;
+}
+
 @media (max-width: 800px) {
     .masonry {
     -moz-column-count:    3;
@@ -53,7 +58,7 @@ a{
     }
 
     iframe{
-        width: 500;
-        height: 250
+        width: 450;
+        height: 280
     }
   }
